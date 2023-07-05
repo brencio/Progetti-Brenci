@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main()
+{ 
+ 
+
+        float AreaTriangolo,AreaQuadrato,AreaCerchio;
+        float valore;
+        float AltezzaTriangolo;
+        float RaggioCerchio;
+        float pigreco = M_PI;
+
+
+        printf("Inserisci un valore: \n");
+
+        scanf("%f", &valore);
+
+
+        AreaQuadrato= (valore * valore);
+
+        AltezzaTriangolo=(valore * sqrt (3) / 2);
+
+        AreaTriangolo=(valore * AltezzaTriangolo) /2;
+
+        RaggioCerchio=(valore / 2);
+
+        AreaCerchio=(RaggioCerchio * RaggioCerchio * pigreco);
+
+
+
+        printf("L'area del quadrato vale: %f\n", AreaQuadrato);
+
+        printf("L'area del triangolo vale: %f\n",AreaTriangolo);
+
+        printf("L'area del cerchio vale: %f\n",AreaCerchio);
+
+return 0;
+} 
