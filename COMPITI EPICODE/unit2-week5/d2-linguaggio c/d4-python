@@ -1,0 +1,13 @@
+import math 
+pi=math.pi
+
+print("\tInserisci un valore")
+x= int(input("Il lato del quadrato è: "))
+print("il perimetro del quadrato è: ", x*4)
+
+y= int(input("\nIl diametro del cerchio è: " ))
+print("La circonferenza del cerchio è: " , y*pi)
+
+z= int(input("\nLa base del rettangolo è: "))
+a= int(input("L'altezza del rettangolo è: "))
+print("Il perimetro del rettangolo è: ", z*2+a*2)
