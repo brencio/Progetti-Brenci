@@ -1,0 +1,16 @@
+def funzione_1(lista_a):
+    """questa funzione ci restituise una lista vuota"""
+    return lista_a
+
+
+def conteggio_indici(lista_b):
+    """Fa il conto del numero di lettere per indice"""
+    lista_a = funzione_1(["ciao", "mi", "piace","mangiare", "la", "pizza"])
+    for i in enumerate(lista_a):
+        print(f"{i}\n\r")
+    for i in lista_a:
+        lista_b.append(len(i))
+        print(f"questo oggetto ha: {len(i)} caratteri")
+    return lista_b
+
+conteggio_indici([])
